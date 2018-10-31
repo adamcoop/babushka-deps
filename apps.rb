@@ -1,46 +1,27 @@
-dep "core apps" do
-  requires "mac app store core apps"
-  requires "homebrew cask core apps"
+dep "apps" do
+  requires "mac app store apps"
+  requires "homebrew cask apps"
 end
 
-dep "bloated apps" do
-  requires "core apps"
-  requires "mac app store bloated apps"
-  requires "homebrew cask bloated apps"
-end
-
-dep "mac app store core apps" do
+dep "mac app store apps" do
   # Mac App Store apps I rely on for basic work
   requires "DaisyDisk.mas"
-  requires "Kaleidoscope.mas"
-  requires "Pastebot.mas"
   requires "PixelWinch.mas"
   requires "Soulver.mas"
-end
-
-dep "homebrew cask core apps" do
-  # Apps I rely on for basic work
-  requires "1password"
-  requires "charles"
-  requires "gitup"
-  requires "gpg-suite"
-  requires "visual-studio-code"
-end
-
-dep "mac app store bloated apps" do
-  # Mac App Store apps that are nice to have
   requires "Keynote.mas"
   requires "Slack.mas"
   requires "Numbers.mas"
   requires "Pages.mas"
 end
 
-dep "homebrew cask bloated apps" do
-  # Apps that are nice to have on systems that are not heavily constrained cpu/ram/battery
+dep "homebrew cask apps" do
+  # Apps I rely on for basic work
+  requires "1password"
+  requires "charles"
+  requires "gitup"
+  requires "gpg-suite"
+  requires "visual-studio-code"
   requires "google-chrome"
-  # requires "google-drive-file-stream"
-  # requires "reveal"
-  # requires "virtualbox"
 end
 
 # Apps installed from the Mac App Store
