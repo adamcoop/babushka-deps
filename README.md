@@ -1,4 +1,4 @@
-# Philip’s Babushka Deps
+# Jake’s Babushka Deps
 
 [Babushka](http://babushka.me) deps for building my standard computing environment.
 
@@ -7,7 +7,7 @@
 On a fresh copy of macOS, install Xcode from the Mac App Store, then agree to the Xcode license:
 
 ```
-sudo xcodebuild -license
+sudo xcodebuild -runFirstLaunch
 ```
 
 Make relevant parts of `/usr/local` writeable:
