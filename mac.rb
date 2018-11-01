@@ -13,10 +13,5 @@ end
 dep "macbook" do
   requires "mac"
   requires "personal"
-  requires "core apps"
-end
-
-dep "imac" do
-  requires "mac"
-  requires "bloated apps"
+  requires "apps"
 end
