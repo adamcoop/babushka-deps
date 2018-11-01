@@ -1,7 +1,7 @@
 dep "personal dotfiles" do
   requires "stripysock:dotfiles"
   requires "stripysock:repository".with :path => "~/.dotfiles-personal",
-                                    :url => "https://github.com/blackp/dotfiles.git",
+                                    :url => "https://github.com/jmacmullin/dotfiles.git",
                                     :branch => "master"
 
   met? {
