@@ -7,11 +7,12 @@ dep "mac app store apps" do
   # Mac App Store apps I rely on for basic work
   requires "DaisyDisk.mas"
   requires "PixelWinch.mas"
-  requires "Soulver.mas"
-  requires "Keynote.mas"
-  requires "Slack.mas"
-  requires "Numbers.mas"
-  requires "Pages.mas"
+  #TODO: ensure I can get these from the MAS
+  #requires "Soulver.mas"
+  #requires "Keynote.mas"
+  #requires "Slack.mas"
+  #requires "Numbers.mas"
+  #requires "Pages.mas"
 end
 
 dep "homebrew cask apps" do
