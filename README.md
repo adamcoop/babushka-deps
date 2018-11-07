@@ -1,4 +1,4 @@
-# Jake’s Babushka Deps
+# Adam's Babushka Deps
 
 [Babushka](http://babushka.me) deps for building my standard computing environment.
 
@@ -54,8 +54,6 @@ babushka "imac"
 
 - [ ] [Copy Keychain](https://support.apple.com/kb/PH20120?locale=en_US)
 - [ ] Disable the guest user
-- [ ] Open 1Password and sign in
 - [ ] Configure charles proxy
-- [ ] Open Pastebot, give it a chance to open on launch etc
 - [ ] Open Kaleidoscope, install its integration: ksdiff
-- [ ] Open Pixel Winch and set it up to open on login
+- [ ] Log in to Adobe Creative Cloud, install apps
