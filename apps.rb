@@ -4,24 +4,21 @@ dep "apps" do
 end
 
 dep "mac app store apps" do
-  requires "DaisyDisk.mas"
-  requires "PixelWinch.mas"
-  requires "Soulver.mas"
   requires "Keynote.mas"
   requires "Slack.mas"
   requires "Numbers.mas"
   requires "Pages.mas"
-  requires "Byword.mas"
+  requires "PixelmatorPro.mas"
 end
 
 dep "homebrew cask apps" do
-  requires "1password"
   requires "charles"
   requires "gitup"
   requires "gpg-suite"
   requires "visual-studio-code"
   requires "google-chrome"
   requires "sketch"
+  requires "adobe-creative-cloud"
 end
 
 # Apps installed from the Mac App Store
@@ -60,7 +57,6 @@ meta :mas do
     }
   }
 end
-
 dep("Byword.mas") { id "420212497" }
 dep("DaisyDisk.mas") { id "411643860" }
 dep("1Blocker.mas") { id "1107421413" }
@@ -82,6 +78,7 @@ dep("Pastebot.mas") { id "1179623856" }
 dep("PixelWinch.mas") { id "735066709" }
 dep("PDFpen.mas") { id "403624960" }
 dep("Pixelmator.mas") { id "407963104" }
+dep("PixelmatorPro.mas") { id "1289583905" }
 dep("Reeder.mas") { id "880001334" }
 dep("Shush.mas") { id "496437906" }
 dep("Sip.mas") { id "507257563" }
@@ -100,6 +97,7 @@ dep("Yoink.mas") { id "457622435" }
 def cask(name); dep name, :template => "stripysock:cask"; end # Avoid repitition below
 
 cask "1password"
+cask "adobe-creative-cloud"
 cask "atext"
 cask "caffeine"
 cask "charles"
