@@ -44,11 +44,6 @@ When this completes, close the shell and open a new one, then continue the insta
 babushka "macbook"
 ```
 
-Or, for a heavier install:
-
-```
-babushka "imac"
-```
 
 ## Manual steps
 
